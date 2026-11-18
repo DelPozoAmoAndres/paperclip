@@ -701,6 +701,7 @@ export {
   secretProviderConfigPayloadSchema,
   createSecretBindingSchema,
   rotateSecretSchema,
+  createDeploymentAssertionSchema,
   secretBindingTargetSchema,
   updateSecretSchema,
   type CreateSecretBinding,
@@ -717,6 +718,7 @@ export {
   type RemoteSecretImport,
   type RemoteSecretImportSelection,
   type RotateSecret,
+  type CreateDeploymentAssertion,
   type UpdateSecret,
 } from "./secret.js";
 
@@ -775,6 +777,7 @@ export {
   currentUserProfileSchema,
   authSessionSchema,
   browserTracingConfigSchema,
+  browserAnalyticsConfigSchema,
   updateCurrentUserProfileSchema,
   updateCompanyMemberSchema,
   updateCompanyMemberWithPermissionsSchema,
@@ -797,6 +800,7 @@ export {
   type CurrentUserProfile,
   type AuthSession,
   type BrowserTracingConfig,
+  type BrowserAnalyticsConfig,
   type UpdateCurrentUserProfile,
   type UpdateCompanyMember,
   type UpdateCompanyMemberWithPermissions,

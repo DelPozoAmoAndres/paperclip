@@ -169,6 +169,7 @@ export { remoteAgentProfiles } from "./remote_agent_profiles.js";
 export { companySecretVersions } from "./company_secret_versions.js";
 export { companySecretBindings } from "./company_secret_bindings.js";
 export { companySecretProposals } from "./company_secret_proposals.js";
+export { companySecretDeploymentAssertions } from "./company_secret_deployment_assertions.js";
 export { userSecretDeclarations } from "./user_secret_declarations.js";
 export { secretAccessEvents } from "./secret_access_events.js";
 export {
@@ -291,3 +292,5 @@ export { budgetEvaluationWork } from "./budget_evaluation_work.js";
 export { tailscaleConnections } from "./tailscale_connections.js";
 export { nativeProviderArtifacts, nativeProviderArtifactReferences } from "./native_provider_artifacts.js";
 export { linkPreviews } from "./link_previews.js";
+export { toolConnectionContentDeletions } from "./tool_connection_content_deletions.js";
+export * from "./plugin_connector_legacy_access.js";
